@@ -9,7 +9,7 @@ A local ticket-management application with a JSON API, server-rendered forms, an
 - **Diagnostics:** sanitized JSON, HTML, and JUnit reports without raw errors or browser captures.
 - **CI:** Windows GitHub Actions, locked dependencies, pinned actions, and allowlisted failure reports.
 
-**Local verification passed:** 32 API/Chromium tests passed, with 0 failures, 0 skips, one worker, and zero retries. Workflow-policy, lint, TypeScript, scrypt resource, and sanitized-report checks passed. **Candidate hosted CI has not run.** See [verification scope](docs/VERIFICATION.md) for independent local results and the original project's separate hosted EVD-01 results; its artifact expiration observation remains pending.
+**Verified locally and in GitHub Actions:** independent local verification passed all 32 API/Chromium tests with no failures, skips, or retries. Checks and sanitized-report validation passed; the portfolio's **Ticket Desk QA #1** hosted workflow also passed. See [verification details](docs/VERIFICATION.md) for scope and the original project's separate EVD-01 results; its expiration observation remains pending.
 
 ## Stack
 
@@ -40,4 +40,4 @@ Keep credentials and private evidence out of commits. Captures, traces, and vide
 - [Verification scope](docs/VERIFICATION.md) | [Standard CI](.github/workflows/ci.yml)
 - [MIT license](LICENSE) | [Licensing and attribution](docs/LICENSING.md) | [Third-party notices](docs/THIRD-PARTY-NOTICES.txt)
 
-This source-only candidate awaits founder review; it has not been published or deployed.
+This portfolio is currently private and awaits founder approval for public release. It has not been deployed.

@@ -1,6 +1,6 @@
 # Ticket Desk: API contract and QA acceptance plan
 
-Status: inherited behavior specification. Independent local verification passed; candidate hosted CI has not run.
+Status: inherited behavior specification. Independent local verification and portfolio hosted CI passed; see [verification scope](VERIFICATION.md).
 
 ## 1. Scope and architecture
 
